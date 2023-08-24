@@ -1,7 +1,9 @@
 .container-clock {
-  height: 100%;
+  height: 200px;
   justify-content: center;
   align-content: center;
+  background-color: rgba(0, 0, 0, 0.705);
+  border-radius: 20px;
 }
 
 .box {
@@ -17,4 +19,18 @@
 
 #contenitore {
   height: 100vh;
+  padding: 100px 400px;
+}
+.videofullscreen {
+  position: absolute;
+  overflow: hidden;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
+  z-index: -100;
+  opacity: 95%;
+}
+
+h1 {
+  color: blanchedalmond;
 }
